@@ -14,7 +14,7 @@ public class bot {
     public static String prefix = "*";
 
     public static void main(String[] args) throws LoginException {
-        JDA jda = JDABuilder.createDefault("ODAzNzQyNjE0MzE3Njk0OTg2.YBCNpA.aDmhnrHJ5cvEeZOQU4YYvVtOkxY").build();
+        JDA jda = JDABuilder.createDefault("token").build();
 
         jda.getPresence().setStatus(OnlineStatus.IDLE);
 
