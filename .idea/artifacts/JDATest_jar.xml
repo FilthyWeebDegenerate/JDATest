@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JDATest:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JDATest_jar</output-path>
+    <root id="archive" name="JDATest.jar">
+      <element id="module-output" name="JDATest" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../JDALIBS/JDA-4.2.0_227-withDependencies.jar" path-in-jar="/" />
+      <element id="library" level="project" name="JDA-4.2.0_227-withDependencies" />
+    </root>
+  </artifact>
+</component>
